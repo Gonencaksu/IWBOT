@@ -132,5 +132,6 @@ async def on_ready():
     print('Giriş yapıldı {0} ({0.id})'.format(bot.user))
     print('------')
 
+export DISCORD_BOT_TOKEN = token
 bot.add_cog(Music(bot))
-bot.run('ODExNDk4Mjc5ODQ1NzU2OTcw.YCzEqg.3yZgTL3W0Nh8exgA7zU6f248P14')
+bot.run(token)
